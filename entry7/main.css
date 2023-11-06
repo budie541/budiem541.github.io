@@ -1,19 +1,21 @@
+
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 5px;
   align-content: center;
+  background: black;
 }
 
 .column {
   flex: 15%;
   max-width: 15%;
-  padding: 0 4px;
+  padding: 0 7px;
   align-content: center;
 }
 
 .column img {
-  margin-top: 8px;
+  margin-top: 15px;
+  margin-left: 15px;
   vertical-align: middle;
   width: 100%;
 }
@@ -23,6 +25,13 @@
     flex: 50%;
     max-width: 50%;
   }
+}
+
+.home{
+  text-align: right;
+  margin-top: -100px;
+  width: 100;
+  margin-right: 30px;
 }
 
 h1{
