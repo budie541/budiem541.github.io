@@ -1,0 +1,103 @@
+body{
+    background-image: url('imgs/IMG_8747.jpg');
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.days{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: arial;
+    width: 100%;
+}
+
+.day{
+    margin: 5px;
+    margin-left: 80px;
+}
+
+.container, .container2, .container3, .container4, .container5, .container6, .container7, .container8{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding-left: 70px;
+    padding-right: 70px;
+    justify-content: stretch;
+}
+
+.story{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    outline: transparent solid 10px;
+    border: white solid 2px;
+    margin: 3px;
+    margin-bottom: 7px;
+}
+
+.container:hover{
+    background-color: white;
+}
+
+.container2:hover{
+    background-color: white;
+}
+
+.container3:hover{
+    background-color: white;
+}
+
+.container4:hover{
+    background-color: white;
+}
+
+.container5:hover{
+    background-color: white;
+}
+
+.container6:hover{
+    background-color: white;
+}
+
+.container7:hover{
+    background-color: white;
+}
+
+.container8:hover{
+    background-color: white;
+}
+
+.title:after{
+    display: flex;
+    flex-direction: row;
+    content: 'THIS WEEK IN UNIT 25E';
+    font-family: Arial;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    background-color: #2B2B2b;
+    letter-spacing: -5px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    margin: 50px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    border-radius: 100px;
+    outline: 50px;
+    outline-color: transparent;
+    width: 800px;
+}
+
+.title:hover:after{
+    display: flex;
+    flex-direction: row;
+    content: "05.09.23 - 31.10.23";
+    color: steelblue;
+    background-color: white;
+    border-radius: 100px;
+    width: 800px;
+    text-align: center;
+}
