@@ -1,0 +1,111 @@
+body{
+	background-color: white;
+	margin-bottom: 70px;
+}
+.title{
+	font-family: Arial;
+	font-size: 100px;
+	font-weight: bold;
+	color: white;
+	background-color: indianred;
+	letter-spacing: -12px;
+	margin: 100px;
+	padding: 30px;
+	text-align: center;
+	border-radius: 100px;
+}
+.title:hover{
+	content: "26.09 - 02.10";
+	color: steelblue;
+	background-color: white;
+	border-radius: 100px;
+}
+
+h2{
+	font-family: Arial;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	background-color: steelblue;
+	letter-spacing: -3px;
+	padding-top: 7px;
+	text-align: center;
+	position: fixed;
+	margin-top: -100px;
+}
+p{
+	font-family: arial;
+	font-weight: 600;
+	font-size: 40px;
+	letter-spacing: -4px;
+	color: steelblue;
+	line-height: 30px;
+	text-align: right;
+	padding-right: 30px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	border-radius: 30px;
+	margin-bottom: 10px;
+	background-color: white;
+
+}
+.text:hover{
+	color: indianred;
+	background-color: white;
+	border-radius: 100px;
+}
+.text1:hover{
+	color: indianred;
+	background-color: white;
+	border-radius: 100px;
+}
+
+.container {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 0.5fr 0.7fr;
+ column-gap: 150px;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.text {
+	font-family: monospace;
+	font-size: 16px;
+	color: darkgrey;
+	margin-right: 100px;
+	text-align: right;
+}
+
+h3{
+	font-family: arial;
+	font-weight: 600;
+	font-size: 40px;
+	letter-spacing: -4px;
+	color: steelblue;
+	line-height: 30px;
+	text-align: left;
+	background-color: white;
+}
+
+.container1 {
+	background-color: white;
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 0.7fr 0.7fr;
+}
+
+.text1 {
+	font-family: monospace;
+	font-size: 16px;
+	color: darkgrey;
+	margin-left: 80px;
+	margin-right: 80px;
+	text-align: left;
+}
