@@ -1,0 +1,118 @@
+body{
+	background-color: white;
+	margin-bottom: 70px;
+}
+.title:after{
+	content: 'THIS WEEK IN UNIT 25E';
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	background-color: #2B2B2B;
+	outline: white solid 10px;
+	width: 400px;
+	padding: 14px;
+	text-align: center;
+	border-radius: 100px;
+	position: fixed;
+	z-index: 5;
+	margin-top: 50px;
+}
+
+.title:hover:after{
+	content: '09.10.23 - 16.10.23';
+	color: indianred;
+	font-size: 35px;
+	background-color: white;
+	border-radius: 100px;
+	outline: white solid 3px;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	object-fit: cover;
+	text-align: center;
+  margin-top: 100px;
+  z-index:1
+}
+
+.scroll {
+	display: flex;
+	flex-direction: row;
+  width: 460px;
+  white-space: nowrap;
+  z-index: 2;
+  position: relative;
+	top: -345px;
+	margin: 10px;
+	color: transparent;
+	font-size: 15px;
+	line-height: 13px;
+}
+
+.overlay:hover{
+	color: white;
+	font-size: 15px;
+}
+
+h2{
+	font-family: Arial;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	background-color: #2B2B2B;
+	font-stretch: condensed;
+	letter-spacing: 0px;
+	padding-top: 7px;
+	text-align: center;
+	position: fixed;
+	margin-top: 50px;
+	margin-left: 80px;
+	outline: white solid 10px;
+	z-index: 4;
+}
+
+.par{
+	display: flex;
+	flex-direction: row;
+	margin: -10px;
+	margin-top: -330px;
+	padding: 15px;
+	color: white;
+	text-align: center;
+}
+
+.story{
+	margin: -3px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+
+.menu{
+	position: fixed;
+	font-family: arial;
+	display: flex;
+	flex-direction: row;
+	color: white;
+
+}
+a{
+	justify-content: space-between;
+	background-color: #2B2B2B;
+	padding: 20px;
+	
+}
+
+a:link{
+	color: white;
+}
+
+a:visited{
+	color: white;
+}
