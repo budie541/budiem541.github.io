@@ -8,7 +8,7 @@ body{
 	font-weight: bold;
 	color: white;
 	background-color: indianred;
-	letter-spacing: -12px;
+	letter-spacing: -7px;
 	margin: 100px;
 	padding: 30px;
 	text-align: center;
@@ -32,19 +32,20 @@ h2{
 	text-align: center;
 	position: fixed;
 	margin-top: -100px;
+	margin-left: -10px;
 }
 p{
 	font-family: arial;
 	font-weight: 600;
 	font-size: 40px;
-	letter-spacing: -4px;
+	letter-spacing: -1px;
 	color: steelblue;
-	line-height: 30px;
+	line-height: 40px;
 	text-align: right;
-	padding-right: 30px;
+	padding-right: 0px;
 	padding-top: 50px;
 	padding-bottom: 20px;
-	padding-left: 20px;
+	padding-left: 30px;
 	border-radius: 30px;
 	margin-bottom: 10px;
 	background-color: white;
@@ -87,15 +88,15 @@ h3{
 	font-family: arial;
 	font-weight: 600;
 	font-size: 40px;
-	letter-spacing: -4px;
+	letter-spacing: -1px;
 	color: steelblue;
-	line-height: 30px;
+	line-height: 40px;
 	text-align: left;
 	background-color: white;
 }
 
 .container1 {
-	background-color: white;
+background-color: white;
  display: grid;
  align-items: center; 
  grid-template-columns: 0.7fr 0.7fr;

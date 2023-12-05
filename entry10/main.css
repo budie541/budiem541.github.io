@@ -24,12 +24,11 @@ h1{
 
 p{
   font-family: arial;
-  font-size: 17px;
-  text-align: center;
+  font-size: 18px;
   color: royalblue;
   margin-left: 50px;
-  margin-top: 120px;
+  margin-top: 150px;
   margin-right: 250px;
   line-height: 30px;
-  letter-spacing: 4px;
+  letter-spacing: 3.5px;
 }
